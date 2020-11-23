@@ -103,7 +103,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: github
-  repo: <https://github.com/SYZhenYuZhao/SYZhenYuZhao.github.io.git> # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [master]
-  message: [message]
+  type: git
+  repo: http://github.com/SYZhenYuZhao/SYZhenYuZhao.github.io.git 
+  branch: master
+  message: message
