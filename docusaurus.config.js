@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://younotes.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'SYZhenYuZhao', // Usually your GitHub org/user name.
+  projectName: 'SYZhenYuZhao.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/SYZhenYuZhao/SYZhenYuZhao.github.io/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/SYZhenYuZhao/SYZhenYuZhao.github.io/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,14 +47,17 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
+        items: [{
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -65,20 +67,16 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
+        links: [{
             title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            items: [{
+              label: 'Tutorial',
+              to: '/docs/intro',
+            }, ],
           },
           {
             title: 'Community',
-            items: [
-              {
+            items: [{
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -94,8 +92,7 @@ const config = {
           },
           {
             title: 'More',
-            items: [
-              {
+            items: [{
                 label: 'Blog',
                 to: '/blog',
               },
